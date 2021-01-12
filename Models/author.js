@@ -32,4 +32,6 @@ AuthorSchema
 
 
 // Compile model from schema
-module.exports = mongoose.model('Author', AuthorSchema);
+const Author = mongoose.model('Author', AuthorSchema);
+module.exports = Author;
+//++++++++++++//
