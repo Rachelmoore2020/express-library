@@ -3,9 +3,9 @@
 /**
  * Module dependencies.
  */
-//the next line takes us to app.js, the .js is optional)
+
 var app = require('../app');
-var debug = require('debug')('express-library:server');
+var debug = require('debug')('express-locallibrary-tutorial:server');
 var http = require('http');
 
 /**
@@ -31,8 +31,6 @@ server.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.
- * 
- * The following is boilerplate code.
  */
 
 function normalizePort(val) {
